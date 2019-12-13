@@ -1,0 +1,21 @@
+{
+    "name": "rightthisminute/php-functionally-wrapped",
+    "description": "A layman's implementation of vaguely functional ideas as wrappers around PHP values. Mainly inspired by OCaml.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Donovan Mueller",
+            "email": "zotobi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "RightThisMinute\\FunctionallyWrapped\\": "./src"
+        },
+        "files": []
+    }
+}
