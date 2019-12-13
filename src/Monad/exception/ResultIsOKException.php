@@ -2,10 +2,10 @@
 declare(strict_types=1);
 
 
-namespace RightThisMinute\FunctionallyWrapped\Monad\MaybeResult\exception;
+namespace RightThisMinute\FunctionallyWrapped\Monad\exception;
 
 
-class IsOKException extends \Exception
+class ResultIsOKException extends \Exception
 {
   public function __construct ()
   {

@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace RightThisMinute\FunctionallyWrapped\Monad\MaybeResult;
+namespace RightThisMinute\FunctionallyWrapped\Monad;
 
 
 use Throwable;

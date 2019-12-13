@@ -1,12 +1,12 @@
 <?php
 
 
-namespace RightThisMinute\FunctionallyWrapped\Monad\MaybeResult\exception;
+namespace RightThisMinute\FunctionallyWrapped\Monad\exception;
 
 
 use Throwable;
 
-class IsErrorException extends \Exception
+class ResultIsErrorException extends \Exception
 {
   public function __construct (Throwable $previous)
   {
